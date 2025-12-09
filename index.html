@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus IA</title>
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Campus IA</div>
+        <nav>
+            <a href="#rutas">Rutas</a>
+            <a href="#talleres">Talleres</a>
+            <a href="#recursos">Recursos</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-left">
+            <h1>Aprende IA generativa con un asistente en tiempo real</h1>
+            <p>
+                Explora conceptos de Azure AI, modelos de lenguaje y aplicaciones prácticas.
+                El asistente responde preguntas, sugiere rutas de estudio y te ayuda a preparar laboratorios.
+            </p>
+
+            <ul class="features">
+                <li>Conceptos clave explicados en lenguaje simple.</li>
+                <li>Ideas de prácticas y proyectos para Ingeniería en Computación.</li>
+                <li>Guía para exámenes de certificación tipo AI-900 y similares.</li>
+            </ul>
+
+            <p class="note">Escribe tus dudas en el chat de la esquina inferior derecha.</p>
+        </div>
+
+        <aside class="hero-card">
+            <h3>Ejemplos rápidos para preguntarle al asistente</h3>
+            <ul>
+                <li>“Explícame overfitting como si fuera de primer semestre.”</li>
+                <li>“Dame ideas de proyectos con Azure AI Services para mi clase.”</li>
+                <li>“¿Cómo puedo evaluar un modelo de clasificación en Azure ML?”</li>
+            </ul>
+        </aside>
+    </section>
+
+    <!-- RUTAS -->
+    <section id="rutas" class="cards-section">
+        <h2>Rutas de aprendizaje sugeridas</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Fundamentos de IA</h3>
+                <p>Aprende tipos de modelos, datos, entrenamiento y evaluación.</p>
+            </div>
+
+            <div class="card">
+                <h3>Azure AI Services</h3>
+                <p>Visión, lenguaje, búsqueda y documentos sin escribir código.</p>
+            </div>
+
+            <div class="card">
+                <h3>Proyectos para el aula</h3>
+                <p>Diseña prácticas reales para grupos con enfoque práctico.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TALLERES -->
+    <section id="talleres" class="talleres-section">
+        <h2>Talleres recomendados</h2>
+        <p>
+            Combina sesiones teóricas con laboratorios guiados. Usa el asistente para generar instrucciones paso a paso,
+            cuestionarios y ejemplos para tus grupos.
+        </p>
+    </section>
+
+    <!-- RECURSOS -->
+    <section id="recursos" class="recursos-section">
+        <h2>Recursos</h2>
+        <ul>
+            <li><a href="https://learn.microsoft.com/azure" target="_blank">Documentación de Azure</a></li>
+            <li><a href="https://learn.microsoft.com/training" target="_blank">Microsoft Learn</a></li>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>Desarrollado por Omar Valencia Cruz</p>
+    </footer>
+
+    <!-- CHAT FLOATING WIDGET -->
+    <div id="chat-widget"></div>
+
+    <script src="js/chat-service.js"></script>
+    <script src="js/chat-widget.js"></script>
+
+</body>
+</html>
